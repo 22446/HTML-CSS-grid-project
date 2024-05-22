@@ -1,0 +1,456 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
+}
+/* header */
+.parent-header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 0.5fr;
+}
+.header1{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-content-1{
+    width: 50%;
+}
+.img-content-1 img{
+    width: 100%;
+}
+.header1 .headercontent-1 h3{
+  font-family:"Arvo", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+}
+
+.header1 .headercontent-1 p:nth-of-type(1){
+    color:rgb(159, 163, 167);
+    font-family:"Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+.headercontent-1{
+    width: 32%;
+}
+.header2{
+   grid-column: 3/5;
+   grid-row: 1/2;
+   text-align: center;
+   align-content: center;
+   background-color: #F7F8F9;
+}
+.header2  p{
+    color:rgb(159, 163, 167);
+    font-family:"Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+.header2  h1{
+    font-family: "Arvo", serif;
+    line-height: 60px;
+    font-style: normal;
+    color: rgb(51, 51, 51);
+    font-size: 48px;
+    font-weight: 400;
+}
+.header2  a{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    color: rgb(39, 185, 194);
+    font-size: 14px;
+    font-weight: 400;
+}
+.header1 .headercontent-1 p:nth-of-type(2){
+    color: rgb(159, 163, 167);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header1 .img-content-1 img{
+    width: 100%;
+    margin-top: 40px;
+}
+/* layout2 */
+
+.Keyboard{
+background-color: #F05638;
+grid-column: 1/2;
+grid-row: 2/3;
+text-align: center;
+align-content: center;
+}
+.Keyboard h3{
+ font-family: "Arvo", sans-serif;
+ font-weight: 700;
+ font-size: 23px;
+ color: rgb(255, 251, 251);
+}
+.Keyboard a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    color: rgb(255, 200, 10);
+    font-weight: 700;
+    text-decoration: none;
+}
+.Keyboard img{
+    width: 100%;
+    
+}
+.gameboy{
+    grid-column: 2/4;
+    grid-row: 2/3; 
+    align-content: center; 
+    display: flex;
+    padding: 60px 30px 0px ;
+}
+.gameboy .firsstcontent p{
+    color:rgb(159, 163, 167);
+    font-family:"Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+.gameboy h3{
+    font-family:"Arvo", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+  }
+.seconed p{
+    color: rgb(159, 163, 167);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.firsstcontent{
+    width: 50%;
+   
+}
+.seconed{
+    width: 50%;
+   
+}
+.seconed  a{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    color: rgb(39, 185, 194);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 26px;
+}
+.gameboy img{
+    width: 100%;
+    position: relative;
+    right: 50px;
+    margin-top: 13px;
+}
+.icloud {
+    grid-column: 4/5;
+    grid-row: 2/4;
+    text-align: center;
+    padding: 30px 16px 70px  ;
+}
+ul li {
+    list-style: none;
+    color: #F7F8F9;
+
+
+}
+.icloud ul li:nth-of-type(2){
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+    line-height: 23px;
+    font-family: "Open Sans", sans-serif;
+}
+.icloud p:nth-last-of-type(1){
+    font-size: 12px;
+    color: white;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+}
+.icloud p:nth-last-of-type(2){
+    font-size: 14px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+}
+.icloud button {
+    background-color: #EFC91E;
+    border-radius: 50px;
+    border-color: transparent;
+    padding:14px 28px   ;
+    margin-top: 20px;
+}
+.icloud button a{
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 12px;
+    line-height: 26px;
+    text-decoration: none;
+}
+ul { 
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    
+}
+
+ul::after{
+    content: "";
+   opacity: 0.4;
+   background-color: #8A72B6;
+   height: 25px;
+   position: absolute;
+   width: 50%;
+   border-radius: 26px;
+   top: -3px;
+}
+.icloud h2{
+    font-family:"Arvo", sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    color: white
+}
+.icloud{
+    background-color: #997DB1;
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+}
+.icloud img{
+    width:100%;
+}
+.gamesper{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        align-content: center;
+        text-align: center;
+}
+.gamesper{
+    font-family:"Arvo", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+}
+.gamesper  a{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    color: rgb(39, 185, 194);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 26px;
+}
+.gamesper img{
+    width: 100%;
+    position: relative;
+    left: -30px;
+
+}
+.laptop img{
+    width: 100%;
+    position: relative;
+    top: 21%;
+    right: 10%;
+    overflow: hidden
+}
+.laptop p{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    background-color: #F96D56;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 0px 10px;
+}
+.laptop h3{
+    font-family:"Arvo", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    color: white;
+
+}
+.laptop{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #9DB3B4;
+}
+.twitter{
+    grid-column: 1/2;
+    grid-row: 4/5; 
+    text-align: center;
+    align-content: center;  
+    background-color: #38D5F4;
+}
+.twitter h3{
+    font-family:"Arvo", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    color: white;
+
+}
+.twitter i {
+    font-size: 40px;
+    color: #e9de4c;
+}
+.pr{
+    position: relative;
+}
+.pupolar{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+.pupolar p{
+    left: 38%;
+    top: -27px;
+    position: absolute;
+    background-color: #87C427;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 2px 10px
+}
+.pupolar h3{
+    font-family:"Open Sans", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(51, 51, 51);
+    margin-top: 20px;
+}
+.tv{
+    grid-column: 3/5;
+    grid-row: 4/5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #272727;
+}
+.tv p{
+    font-family:"Arvo", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    color: white;
+}
+.tv img{
+    width: 100%;
+}
+@media (max-width:991px){
+   .parent-header{
+    grid-template-rows: 1fr 1fr 1fr 1fr auto auto auto auto;
+
+        grid-template-areas: 
+        "header2 header2 header2 header2"
+        "header header header header"
+        "Keyboard Keyboard gamesper gamesper"
+        "gameboy gameboy gameboy gameboy"
+        "twitter twitter icloud icloud"
+        "laptop laptop icloud icloud"
+        "pupolar pupolar pupolar pupolar"
+        "tv tv tv tv"
+
+        ;
+   } 
+   .header1{
+    grid-area: header;
+        grid-row: 2/3;
+        grid-column: 1/5;
+   }
+   .header2{
+    grid-area: header2;
+    grid-row: 1/2;
+    grid-column: 1/5;
+
+   }
+   .Keyboard{
+    grid-area: Keyboard;
+    grid-row: 3/4;
+    grid-column: 1/3;
+   }
+   .gamesper{
+    grid-area: gamesper;
+    grid-row: 3/4;
+    grid-column: 3/5;
+   }
+   .gameboy{
+    grid-area: gameboy;
+    grid-row: 4/5;
+    grid-column: 1/5;
+   }
+   .twitter{
+    grid-area: twitter;
+    grid-row: 5/6;
+    grid-column: 1/3;
+   }
+   .icloud{
+    grid-area: icloud;
+    grid-row: 5/7;
+    grid-column: 3/5;
+   }
+   .laptop{
+    grid-area: laptop;
+    grid-row: 6/7;
+    grid-column: 1/3;
+   }
+   .pupolar{
+    grid-area: pupolar;
+    grid-row: 7/8;
+    grid-column: 1/5;
+    
+   }
+   .pupolar p {
+    left: 43%;
+  
+   }
+   .tv{
+    grid-area: tv;
+    grid-row: 8/9;
+    grid-column: 1/5;
+   }
+}
